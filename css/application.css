@@ -187,8 +187,12 @@ ul {
 * {
   box-sizing: border-box; }
 
-.container {
-  width: 50%;
+.wrapper {
+  margin: 0 auto;
+  width: 90%; }
+
+.videoWrapper video {
+  width: 100%;
   margin: 0 auto; }
 
 /*# sourceMappingURL=application.css.map */
