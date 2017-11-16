@@ -187,12 +187,16 @@ ul {
 * {
   box-sizing: border-box; }
 
-.wrapper {
-  margin: 0 auto;
-  width: 90%; }
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 200%; }
 
 .videoWrapper video {
   width: 100%;
   margin: 0 auto; }
+
+.transcriptWrapper {
+  margin: 0 auto;
+  width: 90%; }
 
 /*# sourceMappingURL=application.css.map */

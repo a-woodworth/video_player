@@ -2,14 +2,14 @@
 // Containers
 // ___________________________________________________________________
 
-// Main Wrapper
-.wrapper {
-  margin: 0 auto;
-  width: 90%;
-}
-
 // Video Wrapper
 .videoWrapper video {
   width: 100%;
   margin: 0 auto;
+}
+
+// Text Wrapper
+.transcriptWrapper {
+  margin: 0 auto;
+  width: 90%;
 }

@@ -1,12 +1,8 @@
 // ___________________________________________________________________
-// Base Styles
+// Functions
 // ___________________________________________________________________
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: $font-family--primary;
-  line-height: $base__line;
+// Import Google Font URL
+@if variable-exists(font-url--google) {
+  @import url($font-url--google);
 }

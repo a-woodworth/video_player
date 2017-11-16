@@ -2,18 +2,24 @@
 // Global Config
 // ___________________________________________________________________
 
+// Google Font Stack
+$font-url--google: 'https://fonts.googleapis.com/css?family=Open+Sans';
+
 //Font Stack
-//$font-family--primary: 'Open Sans', sans-serif;
+$font-family--primary: 'Open Sans', sans-serif;
 
 // Font Weights
 
 // Descriptive Base Colors
+$orange: #ffad33;
+$black: rgba(0, 0, 0, 0.75);
 
 // Color Usage
+$color-text-highlight: $orange;
 
 // Text
 $base__font-size: 1em;
-$base__line: 1.6;
+$base__line: 200%;
 
 // Breakpoints
 // $brkpoint-sm: '(min-width: 320px)';
