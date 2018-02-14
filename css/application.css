@@ -190,11 +190,8 @@ ul {
 
 body {
   font-family: "Open Sans", sans-serif;
+  font-weight: 600;
   line-height: 1.8; }
-
-.videoWrapper video {
-  width: 100%;
-  margin: 0 auto; }
 
 .transcriptWrapper {
   margin: 0 auto;
