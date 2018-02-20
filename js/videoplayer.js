@@ -26,3 +26,10 @@ video.addEventListener('timeupdate', () => {
     }
   }
 });
+
+// Change video when section of transcript text selected
+transcript.addEventListener('click', (e) => {
+  if (e.target.tagName == 'SPAN') {
+    video.currentTime = e.target.getAttribute('data-start');
+  }
+});
