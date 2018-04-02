@@ -194,9 +194,23 @@ body {
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.75); }
 
-.transcriptWrapper {
-  margin: 0 auto;
-  width: 90%; }
+@media (min-width: 768px) {
+  .container {
+    width: 75%;
+    margin: 0 auto; } }
+.container__video {
+  padding-bottom: 1em; }
+  @media (min-width: 768px) {
+    .container__video {
+      padding-top: 2em; } }
+.container__transcript {
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .container__transcript {
+      width: 100%; } }
+  @media (max-width: 767px) {
+    .container__transcript {
+      width: 85%; } }
 
 .is-highlighted {
   color: #ffad33; }

@@ -2,14 +2,29 @@
 // Containers
 // ___________________________________________________________________
 
-// Fullscreen Wrapper
-// .wrapper {
-//   width: 80%;
-//   margin: 0 auto;
-// }
-
-// Text Wrapper
-.transcriptWrapper {
+.container {
+	@media #{$brkpoint-md} {
+	width: 75%;
   margin: 0 auto;
-  width: 90%;
+	}
+
+  &__video {
+  	padding-bottom: 1em;
+
+  	@media #{$brkpoint-md} {
+  		padding-top: 2em;
+  	}
+  }
+
+  &__transcript {
+  	margin: 0 auto;
+
+  	@media #{$brkpoint-md} {
+		width: 100%;
+		}
+
+		@media #{$brkpoint-sm} {
+		width: 85%;
+		}
+  }
 }
