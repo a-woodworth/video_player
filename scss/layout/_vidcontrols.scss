@@ -1,0 +1,11 @@
+// ___________________________________________________________________
+// Video Player Controls
+// ___________________________________________________________________
+
+.mejs__button > button:hover {
+  transform: scale(1.5);
+}
+
+span.mejs__time-current {
+  background: $color-text-highlight;
+}
