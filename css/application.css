@@ -218,6 +218,9 @@ body {
 span.mejs__time-current {
   background: #ffad33; }
 
+.container__transcript span:hover {
+  cursor: pointer; }
+
 .is-highlighted {
   color: #ffad33; }
 

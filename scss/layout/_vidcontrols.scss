@@ -9,3 +9,10 @@
 span.mejs__time-current {
   background: $color-text-highlight;
 }
+
+
+// Cursor turns to pointer to show you can jump around video when clicking 
+// on transcript
+.container__transcript span:hover {
+  cursor: pointer;
+}
